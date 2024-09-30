@@ -3,4 +3,4 @@ def fact(n) :
 		return 1
 	else :
 		return n*fact(n-1)
-print(fact(5))
+print(fact(int(input())))
