@@ -1,0 +1,26 @@
+# 1) Arithmetic Operators 
+a=int(input()) 
+b=int(input()) 
+print("Sum",a+b) 
+print("Subtraction",a-b) 
+print("Product",a*b) 
+print("Division ",a/b) 
+print("Exponent",a**b) 
+print("Floor Division ",a//b) 
+print("Modulus",a%b) 
+# ii) Relational Operators 
+a=int(input()) 
+b=int(input()) 
+print(a==b) 
+print(a!=b) 
+print(a>b) 
+print(a<b) 
+print(a>=b) 
+print(a<=b) 
+# iii) Identity Operators. 
+x=int(input("Enter value of X:")) 
+y=int(input("Enter value of Y:")) 
+z=x 
+print(x is y) 
+print(x is not y) 
+print(x is z) 
